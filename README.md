@@ -14,6 +14,18 @@
     <img src="https://img.shields.io/badge/Website-devtoys.app-blue" alt="Website" /></a>
 </p>
 
+Due to this app being only for Debian based distros, I decided to create two containers so it can be used in Fedora with Podman. One Dockerfile (inside the dockerfile_cli folder) is for the CLI version, while the Dockerfile (inside the dockerfile_gui folder) is for the GUI version.
+Both files requiere the .deb binary that can be downloaded from
+
+``` https://devtoys.app/download ```
+
+which is the official website of DevToys and feautres both formats.
+
+Make sure to give them the proper permissions and also to put the proper .deb file inside the folder so it can be copied and executed, enjoy!
+
+
+
+
 ## Introduction
 
 DevToys helps with daily development tasks by offering a bundle of tiny tools designed to do quick, specific tiny tasks. No need to use many untrustworthy websites to simply decode a text or compress an image. With Smart Detection, the app intuitively selects the best tool for the data on your clipboard.
@@ -69,3 +81,4 @@ See [LICENSE](LICENSE.md)
 ### DevToysMac developer
 
 [ObuchiYuki](https://twitter.com/obuchi_yuki)
+
