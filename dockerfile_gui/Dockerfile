@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-# Run it with sudo podman run -it --rm  -e DISPLAY=$DISPLAY   -v /tmp/.X11-unix:/tmp/.X11-unix:Z --device /dev/dri -e --ipc=host  --net=host devtoysgui
-
 RUN apt update && apt update -y
 
 RUN apt-get update && apt-get install -y \
